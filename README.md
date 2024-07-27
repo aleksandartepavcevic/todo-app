@@ -68,3 +68,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Git
+
+#### How to create a branch
+
+- git checkout -b branch_name
+
+#### How to commit changes
+
+- git status to see what files have been changed
+- git add file to add a file to the staging area
+- git commit -m "message" to commit the changes
+- git push to push the changes to the remote repository
+
+#### How to pull changes
+
+- git pull to pull the changes from the remote repository
+
+#### How to push changes
+
+- git push origin branch_name to push the changes to the remote repository with the specified branch name
+
+#### Useful commands
+
+- git log to view the commit history
+- git diff to view the changes
+- git status to view the status of the repository
+- git branch -a to view all branches
+- git branch -d branch_name to delete a branch
+- git checkout branch_name to switch to a branch
+- git checkout -b branch_name to create a new branch
+- git checkout master to switch to the master branch
+- git checkout -b branch_name origin/branch_name to create a new branch from the remote repository
