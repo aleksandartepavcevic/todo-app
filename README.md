@@ -104,3 +104,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - git checkout -b branch_name origin/branch_name to create a new branch from the remote repository
 - git reset --hard HEAD^ to revert the last commit (use with caution as it will lose all changes)
 - git reset --soft HEAD^ to undo the last commit (resets the changes but keeps the commit)
+- git stash push -m "message" to stash the changes and add a message to the stash
+- git stash pop to pop the stashed changes
+- git stash apply to apply the first stash
+- git stash list to view the stash list
+- git stash drop stash@{0} to drop the first stash
+- git stash drop stash@{1} to drop the second stash
