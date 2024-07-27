@@ -102,3 +102,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - git checkout -b branch_name to create a new branch
 - git checkout master to switch to the master branch
 - git checkout -b branch_name origin/branch_name to create a new branch from the remote repository
+- git reset --hard HEAD^ to revert the last commit (use with caution as it will lose all changes)
+- git reset --soft HEAD^ to undo the last commit (resets the changes but keeps the commit)
