@@ -93,6 +93,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 #### Useful commands
 
 - git log to view the commit history
+- git log --oneline --graph to view the commit history with a graphical representation
 - git diff to view the changes
 - git status to view the status of the repository
 - git branch -a to view all branches
