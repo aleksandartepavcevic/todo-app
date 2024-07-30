@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "./logo.svg";
 import styles from "./App.module.scss";
 
 function App() {
+  useEffect(() => {
+    const fetchTodos = async () => {
+      try {
+        const response = await fetch("http://localhost:8080/todos", {
+          method: "GET",
+        });
+        console.log(response);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+
+    fetchTodos();
+  }, []);
+
   return (
     <div className={styles.App}>
       <header className={styles["App-header"]}>
